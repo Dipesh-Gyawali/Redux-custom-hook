@@ -1,0 +1,14 @@
+html {
+  font-size: 10px;
+
+  @include small-device {
+    font-size: 0.5rem;
+  }
+
+  @media (max-width: 640px) {
+    font-size: 0.4rem;
+  }
+}
+body {
+  font-size: 1.6rem;
+}

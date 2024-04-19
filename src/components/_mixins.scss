@@ -1,0 +1,17 @@
+@mixin button-styles {
+  height: 2.7rem;
+  width: 2.8rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    background-color: cornflowerblue;
+    color: white;
+  }
+}
+@mixin small-device {
+  @media (max-width: 640px) {
+    @content;
+  }
+}
